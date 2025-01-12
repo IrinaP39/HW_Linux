@@ -1,0 +1,70 @@
+   0 whoami
+   1 ls
+   2 cd ..
+   3 ls
+   4 mkdir -p /home/animals
+   5 cd /home
+   6 ls
+   7 mkdir -p animals/dogs
+   8 mkdir -p animals/cats
+   9 mkdir -p animals/fish
+  10 tree
+  11 mkdir -p animals/dogs/pluto
+  12 mkdir -p animals/cats/garfield
+  13 mkdir -p animals/fish/nemo
+  14 touch /tmp/evA
+  15 touch /tmp/adam
+  16 mkdir humans
+  17 cp /tmp/adam /humans
+  18 tree
+  19 cd /humans
+  20 cd /tmp
+  21 ls
+  22 cp adam /home/humans
+  23 cd /home
+  24 tree
+  25 mv /tmp/evA /opt/eve
+  26 mv /opt/eve /humans
+  27 tree
+  28 cd /opt
+  29 ls
+  30 mv /tmp/evA /opt/eve
+  31 mv /tmp/evA /eve
+  32 mv /tmp/evA eve
+  33 mv /tmp/evA  opt/eve 
+  34 pwd
+  35 cd ..
+  36 mv /tmp/evA  /opt/eve 
+  37 mv /tmp/eva /opt/eve 
+  38 mv /tmp/eva/opt/eve 
+  39 cd /opt
+  40 ls
+  41 mv -f /tmp/evA/opt/eve
+  42 -f
+  43 cd /tmp
+  44 tree
+  45 cd ..
+  46 ls
+  47 cd /opt
+  48 tree
+  49 cd /home
+  50 tree
+  51 pwd
+  52 touch /tmp/evA
+  53 mv /tmp/evA /opt/eve
+  54 mv /opt/eve /humans
+  55 tree
+  56 cd /tmp
+  57 tree
+  58 touch evA
+  59 tree
+  60 mv evA /opt/eve
+  61 tree
+  62 cd /opt
+  63 tree
+  64 mv eve /home/humans
+  65 cd ..
+  66 cd /home
+  67 tree
+  68 history
+  69 history>/tmp/history.txt && export_file /tmp/history.txt

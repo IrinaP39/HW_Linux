@@ -1,0 +1,26 @@
+   0 pwd
+   1 cd ..
+   2 mkdir -p /opt/irina /tmp/123 /home/vasya
+   3 tree
+   4 ls
+   5 cd..
+   6 pwd
+   7 ls /opt
+   8 pwd
+   9 cp /root/readme.txt /opt/readme.txt
+  10 cp /opt /tmp
+  11 cp -r /opt /tmp
+  12 mv / tmp /home
+  13 mv /tmp /home
+  14 ls
+  15 mv readme. txt new.txt
+  16 home/
+  17 cd
+  18 ls
+  19 mv readme. txt new.txt
+  20 mv readme.txt new.txt
+  21 ls
+  22 rm -r opt/
+  23 rm -r /opt
+  24 history
+  25 history > history.txt

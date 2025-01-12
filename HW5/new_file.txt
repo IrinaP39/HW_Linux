@@ -1,0 +1,13 @@
+Thu Oct  3 22:14:02 UTC 2024
+Modified with text editor
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+tmpfs                    91.4M      8.0K     91.4M   0% /run
+none                     91.4M         0     91.4M   0% /dev/shm
+   1 date > new_file.txt
+   2 df -h >>new_file.txt
+   3 history | tail -3 >> new_file.txt 
+cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+11
